@@ -1,4 +1,3 @@
-import List from '../List/List'
 import './button.css'
 
 function Button(){

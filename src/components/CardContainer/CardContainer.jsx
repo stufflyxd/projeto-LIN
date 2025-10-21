@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 const CardContainer = () => {
   const produtos = [
     { id: 1, nome: "Camisa Azul", categoria: "Blusa", cor: "Preta", tamanho: "M", quantidade: 98, imagem: "/produtos/camisa-azul.jpg", preco: 59.7 },
@@ -57,9 +57,7 @@ const CardContainer = () => {
                   <p className="text-primary fw-bold fs-5 mb-3">
                     R$ {item.preco.toFixed(2).replace(".", ",")}
                   </p>
-                  <button className="btn btn-outline-primary w-100 fw-semibold">
-                    Ver Detalhes
-                  </button>
+                    <Link to={'/product-details'} className="btn btn-outline-primary w-100 fw-semibold">Ver Detalhes</Link>
                 </div>
               </div>
             </div>

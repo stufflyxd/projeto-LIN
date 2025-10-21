@@ -2,7 +2,7 @@ const BannerPromocaoDia = () => {
   
   return (
     <div className="d-flex bg-dark text-white">
-      <p>Alguma coisa foda aqui</p>
+      <p>Promoção não sei do que lá</p>
     </div>
   )
 }
